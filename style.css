@@ -1,5 +1,7 @@
 * {
     font-size: 20px;
+    width: 100%;
+    margin: 20px;
 }
 
 #nav_bar {
@@ -21,10 +23,29 @@
   }
 
   .skill {
-    
+
+    border: 2px solid black;
 text-decoration: underline;
     font-weight: bold;
+    box-shadow: 20px 20px 20px 10px black;
+    padding : 20px;
+    margin:10ox;
+    border-radius: 50px;
     
     
   }
+
+  .svg { 
+    width: 20px;
+  }
+
+#wrenches {
+    width: 100%;
+    max-width: 300px;
+}
+
+#links{
+    display: flex;
+    justify-content: space-between;;
+}
 
